@@ -1,7 +1,3 @@
-/*function convertCurrency(amountMoney, input, output){
-    const moneyChange = amountMoney * exchangeRates[input][output];
-    return moneyChange;
-}*/
 function formatCurrency(type, value){
   const formatter = new Intl.NumberFormat(type, {
     currency: type,
